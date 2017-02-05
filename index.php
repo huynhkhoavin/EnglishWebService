@@ -3,10 +3,11 @@
     $mySqlConnect = new MySqlConnect();
     $action = $_POST['action'];
 // Open a directory, and read its contents
-    if($action == 'get_list_podcast'){
-            $sql = "SELECT * FROM listening_unit";
-    echo $mySqlConnect->Query($sql);
-    }
+    if($action == 'get_list_podcast')
+        {
+            $sql = "SELECT * FROM lesson";
+        echo $mySqlConnect->Query($sql);
+        }
 ?>
 
 

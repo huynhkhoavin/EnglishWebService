@@ -1,5 +1,5 @@
 <?php
-foreach (glob("listen/*.mp3") as $filename) {
+foreach (glob("listen/*") as $filename) {
     echo $filename."<br />";
 }
 ?>
